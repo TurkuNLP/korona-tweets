@@ -1,7 +1,6 @@
 #koronafi
 #koronakriisi
 #covid19fi
-#koronakriisi
 #pysykotona
 
 kuume
@@ -17,5 +16,17 @@ särky
 pääkipu
 lihassärky
 keuhkokuume
-
 kipeä
+kuumeilu
+kurkkukipu
+ruokahaluttomuus
+vatsakivut
+tukkoisuus
+flunssa
+pahoinvointi
+yskää
+vatsavaivat
+kuumetta
+yskiminen
+hengitysvaikeuksia
+
