@@ -42,7 +42,8 @@ def process(f, fn, options):
             else:
                 print(text)
         except Exception as e:
-            print('failed {}: {}'.format(e, l), file=sys.stderr)
+            print('Failed with {}: {}: {}'.format(type(e).__name__, e, l),
+                  file=sys.stderr)
 
 
 def main(argv):
