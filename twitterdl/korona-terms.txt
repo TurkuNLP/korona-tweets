@@ -1,7 +1,8 @@
 #koronafi
 #koronakriisi
 #covid19fi
-
+#koronakriisi
+#pysykotona
 
 kuume
 yskä
