@@ -18,7 +18,8 @@ kipu
 sairaaana
 sairas
 kotona
-
+oireet
+oireita
 
 kuume
 yskä
