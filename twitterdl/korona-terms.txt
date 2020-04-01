@@ -2,6 +2,8 @@
 #koronakriisi
 #covid19fi
 #pysykotona
+#korona
+#koronavirus
 
 kuume
 yskä
