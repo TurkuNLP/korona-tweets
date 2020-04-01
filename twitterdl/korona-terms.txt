@@ -10,7 +10,8 @@
 #COVID19
 #poikkeustila
 #karanteeni
-#viihdykotona
+#StayHome
+
 
 apua
 apteekki
@@ -25,6 +26,8 @@ oireet
 oireita
 keuhkot
 keuhkoissa
+karanteeni
+karanteenissa
 
 
 lämpöä
