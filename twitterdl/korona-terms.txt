@@ -3,6 +3,17 @@
 #covid19fi
 #pysykotona
 
+apua
+apteekki
+ahdistaa
+ahdistus
+kivussa
+kipu
+sairaaana
+sairas
+kotona
+
+
 kuume
 yskä
 hengenahdistus
