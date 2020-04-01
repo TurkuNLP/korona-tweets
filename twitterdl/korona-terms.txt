@@ -17,3 +17,5 @@ särky
 pääkipu
 lihassärky
 keuhkokuume
+
+kipeä
