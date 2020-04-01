@@ -2,6 +2,12 @@
 #koronakriisi
 #covid19fi
 #pysykotona
+#korona
+#koronavirus
+#koronasuomi
+#koronaFI
+#koronavirusFi
+#COVID19
 
 apua
 apteekki
