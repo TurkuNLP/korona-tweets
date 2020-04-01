@@ -28,8 +28,8 @@ class StdOutListener(tweepy.StreamListener):
         if "lang" in decoded and decoded["lang"] in self.langs:
             print(decoded["lang"], decoded["text"].replace(u"\n",u" "),file=self.f_log)
             self.f_log.flush()
-            print(data,file=self.f_out)
-            print("",file=self.f_out)
+            print(data,file=self.f_out,flush=True)
+            print("",file=self.f_out,flush=True)
         else:
             pass
         return True
