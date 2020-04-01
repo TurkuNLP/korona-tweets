@@ -25,6 +25,8 @@ oireet
 oireita
 keuhkot
 keuhkoissa
+karanteeni
+karanteenissa
 
 
 lämpöä
