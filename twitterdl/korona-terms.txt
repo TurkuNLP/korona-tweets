@@ -31,6 +31,7 @@ keuhkot
 keuhkoissa
 karanteeni
 karanteenissa
+hiki
 
 
 lämpöä
@@ -63,3 +64,4 @@ hengitysvaikeuksia
 uupumus
 väsynyt
 uupunut
+
