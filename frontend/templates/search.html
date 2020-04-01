@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>{% block title %}korona-tweets{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+Search:
+<form action="search">
+<input type="search" name="q"></search><button>Search</button>
+</form>
+
+<table>
+  <tr>
+{% for key in response|first|sort %}
+    <td>{{ key }}</td>
+{% endfor %}
+  </tr>
+{% for row in response %}
+  <tr>
+{% for key in row|sort %}
+    <td>{{ row[key] }}</td>
+{% endfor %}
+  </tr>
+{% endfor %}
+</table>
+{% endblock %}

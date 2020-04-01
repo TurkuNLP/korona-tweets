@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>{% block title %}korona-tweets{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+Search:
+<form action="search">
+<input type="search" name="q"></search><button>Search</button>
+</form>
+{% endblock %}
