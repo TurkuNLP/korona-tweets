@@ -19,6 +19,9 @@ ahdistaa
 ahdistus
 kivussa
 kipu
+parantua
+parantuminen
+parantuneeni
 sairaana
 sairas
 kotona
