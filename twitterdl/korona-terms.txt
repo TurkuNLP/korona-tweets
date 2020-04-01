@@ -21,6 +21,7 @@ kotona
 oireet
 oireita
 
+lämpöä
 kuume
 yskä
 hengenahdistus
