@@ -44,12 +44,16 @@ def process(f, fn, options):
 def main(argv):
     args = argparser().parse_args(argv[1:])
     for fn in args.file:
-        if fn.endswith('.gz'):
-            with gzip.open(fn, 'rt', encoding='utf-8') as f:
-                process(f, fn, args)
-        else:
-            with open(fn) as f:
-                process(f, fn, args)
+        try:
+            if fn.endswith('.gz'):
+                with gzip.open(fn, 'rt', encoding='utf-8') as f:
+                    process(f, fn, args)
+            else:
+                with open(fn) as f:
+                    process(f, fn, args)
+        except Exception as e:
+            warning('Error processing {}: {}: {}'.format(
+                fn, type(e).__name__, e))
 
 
 if __name__ == '__main__':
