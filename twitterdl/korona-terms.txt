@@ -20,6 +20,9 @@ sairas
 kotona
 oireet
 oireita
+keuhkot
+keuhkoissa
+
 
 lämpöä
 kuume
