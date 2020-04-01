@@ -8,6 +8,9 @@
 #koronaFI
 #koronavirusFi
 #COVID19
+#poikkeustila
+#karanteeni
+#viihdykotona
 
 apua
 apteekki
@@ -15,11 +18,14 @@ ahdistaa
 ahdistus
 kivussa
 kipu
-sairaaana
+sairaana
 sairas
 kotona
 oireet
 oireita
+keuhkot
+keuhkoissa
+
 
 lämpöä
 kuume
@@ -48,4 +54,6 @@ vatsavaivat
 kuumetta
 yskiminen
 hengitysvaikeuksia
-
+uupumus
+väsynyt
+uupunut
