@@ -4,6 +4,10 @@
 #pysykotona
 #korona
 #koronavirus
+#koronasuomi
+#koronaFI
+#koronavirusFi
+#COVID19
 
 kuume
 yskä
