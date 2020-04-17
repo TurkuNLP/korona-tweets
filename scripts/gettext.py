@@ -5,10 +5,12 @@ import json
 import gzip
 
 from argparse import ArgumentParser
+from logging import warning
 
 
 def argparser():
     ap = ArgumentParser()
+    ap.add_argument('-r', '--no-retweets', default=False, action='store_true')
     ap.add_argument('-d', '--dedup', default=False, action='store_true')
     ap.add_argument('-i', '--ids', default=False, action='store_true')
     ap.add_argument('file', nargs='+')
@@ -27,6 +29,8 @@ def process(f, fn, options):
             continue
         try:
             data = json.loads(l)
+            if 'retweeted_status' in data and options.no_retweets:
+                continue
             try:
                 text = data['extended_tweet']['full_text']
             except:
@@ -49,12 +53,16 @@ def process(f, fn, options):
 def main(argv):
     args = argparser().parse_args(argv[1:])
     for fn in args.file:
-        if fn.endswith('.gz'):
-            with gzip.open(fn, 'rt', encoding='utf-8') as f:
-                process(f, fn, args)
-        else:
-            with open(fn) as f:
-                process(f, fn, args)
+        try:
+            if fn.endswith('.gz'):
+                with gzip.open(fn, 'rt', encoding='utf-8') as f:
+                    process(f, fn, args)
+            else:
+                with open(fn) as f:
+                    process(f, fn, args)
+        except Exception as e:
+            warning('Error processing {}: {}: {}'.format(
+                fn, type(e).__name__, e))
 
 
 if __name__ == '__main__':
