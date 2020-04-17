@@ -11,7 +11,10 @@
 #poikkeustila
 #karanteeni
 #StayHome
-
+#poikkeusolot
+#koronavinkit
+#koronakevät
+#covid19finland
 
 apua
 apteekki
@@ -64,4 +67,11 @@ hengitysvaikeuksia
 uupumus
 väsynyt
 uupunut
-
+aivastelu
+korvasärky
+köhä
+niistäminen
+nuhakuume
+mahakivut
+rasitus
+tulehdus
